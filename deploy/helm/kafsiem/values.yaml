@@ -1,6 +1,9 @@
 image:
-  repository: ghcr.io/scalytics/kafsiem
-  tag: latest
+  # Local-only / NAS-pinned (PLAN-06 E-03 / audit F-1). Iter-8 flips
+  # to ghcr.io. Override via `--set image.repository=...` in any
+  # other environment.
+  repository: 192.168.0.131:5100/scalytics/kafsiem
+  tag: "v1.7.0"
   pullPolicy: IfNotPresent
 
 replicaCount: 1
