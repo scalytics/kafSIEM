@@ -5,6 +5,25 @@ image:
 
 replicaCount: 1
 
+# PSA-restricted-compatible defaults (PLAN-06 E-04 / audit F-4).
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  runAsGroup: 1000
+  fsGroup: 1000
+  seccompProfile:
+    type: RuntimeDefault
+
+containerSecurityContext:
+  allowPrivilegeEscalation: false
+  runAsNonRoot: true
+  readOnlyRootFilesystem: false
+  capabilities:
+    drop:
+      - ALL
+  seccompProfile:
+    type: RuntimeDefault
+
 service:
   type: ClusterIP
   port: 8500
