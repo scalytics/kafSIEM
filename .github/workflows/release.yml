@@ -109,7 +109,7 @@ jobs:
         if: matrix.image.name == 'web'
         id: build_push_1
         continue-on-error: true
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./${{ matrix.image.dockerfile }}
@@ -126,7 +126,7 @@ jobs:
         if: matrix.image.name != 'web'
         id: build_push_targeted_1
         continue-on-error: true
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./${{ matrix.image.dockerfile }}
@@ -142,7 +142,7 @@ jobs:
 
       - name: Build and push image (attempt 2 on transient failure)
         if: steps.build_push_1.outcome == 'failure'
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./${{ matrix.image.dockerfile }}
@@ -157,7 +157,7 @@ jobs:
 
       - name: Build and push targeted image (attempt 2 on transient failure)
         if: steps.build_push_targeted_1.outcome == 'failure'
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./${{ matrix.image.dockerfile }}

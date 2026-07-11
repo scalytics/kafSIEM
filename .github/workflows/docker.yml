@@ -59,7 +59,7 @@ jobs:
       - name: Build image (attempt 1)
         id: build_image_1
         continue-on-error: true
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./${{ matrix.image.dockerfile }}
@@ -71,7 +71,7 @@ jobs:
 
       - name: Build image (attempt 2 on transient failure)
         if: steps.build_image_1.outcome == 'failure'
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: ./${{ matrix.image.dockerfile }}
