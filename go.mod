@@ -15,7 +15,7 @@ require (
 	github.com/twmb/franz-go/pkg/kmsg v1.13.1
 	golang.org/x/net v0.57.0
 	gopkg.in/yaml.v3 v3.0.1
-	modernc.org/sqlite v1.54.0
+	modernc.org/sqlite v1.55.0
 )
 
 require (
