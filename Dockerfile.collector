@@ -1,7 +1,7 @@
 # Copyright 2024 ff, Scalytics, Inc. - https://www.scalytics.io
 # SPDX-License-Identifier: Apache-2.0
 
-FROM --platform=$BUILDPLATFORM golang:1.26-alpine AS build
+FROM --platform=$BUILDPLATFORM golang:1.27-alpine AS build
 
 WORKDIR /app
 ARG TARGETOS
