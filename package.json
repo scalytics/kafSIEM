@@ -54,7 +54,7 @@
     "@types/leaflet": "^1.9.22",
     "@types/leaflet.markercluster": "^1.5.6",
     "@types/node": "^26.4.1",
-    "@types/react": "^19.2.17",
+    "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@types/three": "^0.185.1",
     "@vitejs/plugin-react": "^6.1.1",
