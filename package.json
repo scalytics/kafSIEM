@@ -40,7 +40,7 @@
     "leaflet.heat": "^0.2.0",
     "leaflet.markercluster": "^1.5.3",
     "lucide-react": "^1.33.0",
-    "maplibre-gl": "^5.24.0",
+    "maplibre-gl": "^6.7.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.8",
     "tailwind-merge": "^3.6.0",
