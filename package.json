@@ -43,7 +43,7 @@
     "maplibre-gl": "^6.9.0",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
-    "tailwind-merge": "^3.6.0",
+    "tailwind-merge": "^3.7.0",
     "three": "^0.185.1"
   },
   "devDependencies": {
