@@ -6,7 +6,7 @@ module github.com/scalytics/kafSIEM
 go 1.26.0
 
 require (
-	github.com/andybalholm/brotli v1.2.4
+	github.com/andybalholm/brotli v1.2.5
 	github.com/chromedp/cdproto v0.0.0-20260714215040-dc233986426f
 	github.com/chromedp/chromedp v0.16.0
 	github.com/go-chi/chi/v5 v5.3.2
