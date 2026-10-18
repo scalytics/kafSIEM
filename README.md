@@ -148,12 +148,20 @@ Full contract: [api/openapi.yaml](api/openapi.yaml). Client notes:
 
 | Component | Role |
 |-----------|------|
-| **KafScale** | External Kafka transport. kafSIEM consumes from it. |
-| **KafClaw** | External agent plane. Emits group envelopes on Kafka topics. |
+| **[KafScale](https://github.com/KafScale/platform)** | External Kafka transport. kafSIEM consumes from it. |
+| **[KafClaw](https://github.com/KafClaw/KafClaw)** | External agent plane. Emits group envelopes on Kafka topics. |
 | **kafSIEM** | Observer, graph store, API, UI, packs (this repository). |
 
 kafSIEM complements enterprise intelligence platforms. It exposes typed entity
 and graph APIs, pack-defined ontology, and provenance back to source records.
+
+Related projects from the same team: [KafGraph](https://github.com/scalytics/KafGraph)
+(shared knowledge graph for agents) and [kshark-core](https://github.com/scalytics/kshark-core)
+(Kafka connectivity diagnostics, an example of how agents can use our tools to debug
+Kafka clusters). All projects are listed at
+[scalytics.io/open-source](https://www.scalytics.io/open-source). For a governed,
+supported platform built on this open core, see [Lascaris](https://www.scalytics.io/lascaris).
+Product page: [scalytics.io/kafsiem](https://www.scalytics.io/kafsiem).
 
 ## Documentation
 
