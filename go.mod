@@ -12,7 +12,7 @@ require (
 	github.com/go-chi/chi/v5 v5.3.2
 	github.com/refraction-networking/utls v1.8.2
 	github.com/twmb/franz-go v1.22.1
-	github.com/twmb/franz-go/pkg/kmsg v1.14.0
+	github.com/twmb/franz-go/pkg/kmsg v1.15.0
 	golang.org/x/net v0.61.0
 	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.60.1
