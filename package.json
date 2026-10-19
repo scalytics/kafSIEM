@@ -42,7 +42,7 @@
     "lucide-react": "^1.47.0",
     "maplibre-gl": "^6.13.0",
     "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "react-dom": "^19.3.1",
     "tailwind-merge": "^3.7.0",
     "three": "^0.186.1"
   },
