@@ -2,7 +2,7 @@ SHELL := /bin/bash
 
 NODE_VERSION := 25.8.1
 NPM_VERSION := 11.11.0
-GO_VERSION := 1.25.2
+GO_VERSION := 1.26.10
 GO_COVERAGE_THRESHOLD ?= 45
 GO_COVER_PROFILE ?= .tmp/go-coverage.out
 GO_COVER_REPORT ?= .tmp/go-coverage.txt
