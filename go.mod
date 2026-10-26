@@ -10,7 +10,7 @@ toolchain go1.26.10
 require (
 	github.com/andybalholm/brotli v1.2.6
 	github.com/chromedp/cdproto v0.158.4
-	github.com/chromedp/chromedp v0.16.0
+	github.com/chromedp/chromedp v0.21.0
 	github.com/go-chi/chi/v5 v5.5.0
 	github.com/refraction-networking/utls v1.8.2
 	github.com/twmb/franz-go v1.22.2
@@ -23,9 +23,6 @@ require (
 require (
 	github.com/dustin/go-humanize v1.1.0 // indirect
 	github.com/go-json-experiment/json v0.0.0-20260623181947-01eb4420fa68 // indirect
-	github.com/gobwas/httphead v0.1.0 // indirect
-	github.com/gobwas/pool v0.2.1 // indirect
-	github.com/gobwas/ws v1.4.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/compress v1.20.3 // indirect
 	github.com/mattn/go-isatty v0.0.24 // indirect
