@@ -9,7 +9,7 @@ toolchain go1.26.10
 
 require (
 	github.com/andybalholm/brotli v1.2.7
-	github.com/chromedp/cdproto v0.158.4
+	github.com/chromedp/cdproto v0.158.6
 	github.com/chromedp/chromedp v0.21.0
 	github.com/go-chi/chi/v5 v5.5.0
 	github.com/refraction-networking/utls v1.8.2
