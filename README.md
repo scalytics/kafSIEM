@@ -203,6 +203,10 @@ Browse corroborated clusters: header **Relations** → filter by attack type
 (cyber, terror, maritime, conflict). See
 [docs/userguide.md](docs/userguide.md#attack-relations-clusters).
 
+## Further reading
+
+- Background and walkthrough: [kafSIEM, an open source Kafka SIEM for air-gapped sites](https://www.novatechflow.com/2026/10/kafsiem-open-source-kafka-siem-for-air.html)
+
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
