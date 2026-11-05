@@ -7,6 +7,9 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    ignore:
+      - dependency-name: "github.com/chromedp/chromedp"
+      - dependency-name: "github.com/chromedp/cdproto"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -25,3 +28,6 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 5
+    ignore:
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
